@@ -1,0 +1,171 @@
+@import './header.css';
+@import './articles.css';
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+html {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: 100%;
+}
+
+main {
+    z-index: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto 0px;
+}
+
+main h1 {
+    margin: 20px 45px 30px 45px;
+    text-align: left;
+    font-size: 40px;
+    color: #6d2539;
+}
+
+main .sectionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+main p {
+    font-size: large;
+    /* margin: 20px 10px; */
+    text-align: justify;
+}
+
+.sectionContainer section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 40px;
+}
+
+.sectionContainer section #bienvenida{
+    /* margin: 20px; */
+    display: flex;
+    align-items: flex-start;
+}
+
+.sectionContainer section #indexCard {
+    margin: 10px;
+    width: 180px;
+}
+
+#indexCard img {
+    height: auto;
+    width: 180px;
+}
+
+#indexCard p {
+    text-align: center;
+    margin: 5px;
+}
+
+.sectionContainer section .map {
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+}
+
+/* CONVENIOS*/
+
+section table {
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+  
+section table td {
+    text-align:left;
+    padding: 25px 30px;
+    font-size: large;
+}
+
+section table td a {
+    text-align:left;
+    color: black;
+    text-decoration: none;
+}
+
+section table td a:hover {
+    color: #6d2539;
+    text-decoration: underline;
+}
+
+/* EXAMENES*/
+
+.sectionContainer .leftAligned {
+    align-items: flex-start;
+}
+
+.leftAligned ul {
+    margin: 10px 0px;
+}
+
+.leftAligned ul li {
+    margin: 10px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.leftAligned ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.leftAligned ul li a:hover {
+    color: #6d2539;
+    text-decoration: underline;
+}
+
+.leftAligned #examenesCard {
+    margin: 20px 0px;
+}
+
+.leftAligned #logoSiresa {
+    height: 85px;
+    width: auto;
+    margin: 20px 0px;
+}
+
+#examenesCard img {
+    height: 300px;
+    width: auto;
+    margin: 20px 0px;
+}
+
+#examenesCard p {
+    max-width: 600px;
+}
+
+/* EXPERIENCIA */
+
+section article h3 {
+    color: #6d2539;
+    margin: 15px 0px 5px 0px;
+    font-style: italic;
+}
+
+@media screen and (min-width: 900px) {
+    main .sectionContainer {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}

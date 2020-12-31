@@ -1,0 +1,59 @@
+section article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+section .lastArticle1 {
+    margin-bottom: 80px;
+}
+
+section .lastArticle2 {
+    margin-bottom: 40px;
+}
+
+section #postgrado {
+    margin-top: 20px;
+}
+
+section .place {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+section .place img {
+    box-sizing: border-box;
+    height: 40px;
+    width: auto;
+    margin: 0px 8px;
+}
+
+section h2 {
+    color: #6d2539;
+    font-style: italic;
+}
+
+section .place p {
+    font-weight: bold;
+}
+
+section article h4 {
+    text-align: left;
+    color: #6d2539;
+    font-size: larger;
+    margin: 10px 0px 5px 0px;
+}
+
+article h4 a {
+    color: #6d2539;
+    text-decoration: none;
+}
+
+article h4 a:hover{
+    text-align: left;
+    color: #6d2539;
+    text-decoration: underline;
+}
