@@ -6,12 +6,16 @@ section article {
     margin: 10px 0px;
 }
 
-section .lastArticle1 {
-    margin-bottom: 80px;
+section article:last-child {
+    margin-bottom: 40px;
 }
 
-section .lastArticle2 {
-    margin-bottom: 40px;
+section article:first-child {
+    margin-top: 0px;
+}
+
+section article:first-child h4 {
+    margin-top: 0px;
 }
 
 section #postgrado {
@@ -31,8 +35,9 @@ section .place img {
     margin: 0px 8px;
 }
 
-section h2 {
+section article h3 {
     color: #6d2539;
+    margin: 0px;
     font-style: italic;
 }
 
@@ -56,4 +61,8 @@ article h4 a:hover{
     text-align: left;
     color: #6d2539;
     text-decoration: underline;
+}
+
+section .experiencia {
+    margin-top: 25px;
 }

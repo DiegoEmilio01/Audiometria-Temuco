@@ -10,17 +10,17 @@ header {
     z-index: 1;
 }
 
-
 header .menu {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     background-color: #6d2539;
+    font-family: Calibri, Candara, Arial, sans-serif;
 }
 
 .menu a {
-    padding: 5px;
+    font-size: large;
+    padding: 3px;
     color: #ffffff;
     text-decoration: none;
 }
@@ -43,4 +43,29 @@ header h1 a {
 header h3 {
     margin-bottom: 10px;
     font-style: italic;
+    font-family: Calibri, Candara, Arial, sans-serif;
+}
+
+@media screen and (min-width: 550px) {  
+    header .menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .menu a {
+        padding: 5px;
+    }
+
+    .leftAligned iframe {
+        width: 500px;
+    }
+
+    section table td {
+        padding: 25px 30px;
+    }
+
+    .sectionContainer section {
+        margin: 20px 40px;      
+    }
 }
