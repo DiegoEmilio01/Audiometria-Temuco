@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+html body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: 100%;
+}
+
+html body main {
+    z-index: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto 0px;
+    font-family: Calibri, Candara, Arial, sans-serif;
+}
+
+main h1 {
+    margin: 20px 45px 30px 45px;
+    text-align: left;
+    font-size: 40px;
+    color: #6d2539;
+}
+
+main .sectionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+main p {
+    font-size: large;
+    text-align: justify;
+}
+
+.sectionContainer section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 15px;
+}
+
+section h2 {
+    color: #6d2539;
+    font-style: italic;
+}
+
+.sectionContainer section #bienvenida{
+    display: flex;
+    align-items: flex-start;
+}
+
+.sectionContainer section #indexCard {
+    margin: 10px;
+    width: 180px;
+}
+
+#indexCard img {
+    height: auto;
+    width: 180px;
+}
+
+#indexCard p {
+    text-align: center;
+    margin: 5px;
+}

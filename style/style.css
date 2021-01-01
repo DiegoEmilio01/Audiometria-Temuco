@@ -1,180 +1,32 @@
-@import './header.css';
+@import './index.css';
 @import './articles.css';
+@import './header.css';
+@import './leftAligned.css';
+@import './tables.css';
 
 
-* {
-    margin: 0;
-    padding: 0;
-}
+@media screen and (min-width: 550px) {  
+    header .menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .menu a {
+        padding: 5px;
+    }
 
+    .leftAligned iframe {
+        width: 500px;
+    }
 
+    section table td {
+        padding: 25px 30px;
+    }
 
-html {
-    text-align: center;
-    height: 100%;
-    width: 100%;
-}
-
-html body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-    width: 100%;
-}
-
-html body main {
-    z-index: 0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: auto 0px;
-    font-family: Calibri, Candara, Arial, sans-serif;
-}
-
-main h1 {
-    margin: 20px 45px 30px 45px;
-    text-align: left;
-    font-size: 40px;
-    color: #6d2539;
-}
-
-main .sectionContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-}
-
-main p {
-    font-size: large;
-    text-align: justify;
-}
-
-.sectionContainer section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px 15px;
-}
-
-section h2 {
-    color: #6d2539;
-    font-style: italic;
-}
-
-.sectionContainer section #bienvenida{
-    display: flex;
-    align-items: flex-start;
-}
-
-.sectionContainer section #indexCard {
-    margin: 10px;
-    width: 180px;
-}
-
-#indexCard img {
-    height: auto;
-    width: 180px;
-}
-
-#indexCard p {
-    text-align: center;
-    margin: 5px;
-}
-
-.sectionContainer section .map {
-    height: 250px;
-    width: 250px;
-    border: 1px solid black;
-}
-
-/* CONVENIOS*/
-
-section table {
-    border-collapse: collapse;
-    margin-bottom: 15px;
-}
-  
-section table td {
-    text-align:left;
-    padding: 5px 10px;
-    font-size: large;
-}
-
-section table td a {
-    text-align:left;
-    color: black;
-    text-decoration: none;
-}
-
-section table td a:hover {
-    color: #6d2539;
-    text-decoration: underline;
-}
-
-/* EXAMENES*/
-
-.sectionContainer .leftAligned {
-    align-items: flex-start;
-}
-
-.leftAligned ul {
-    margin: 10px 0px;
-}
-
-.leftAligned ul li {
-    margin: 10px;
-    text-align: left;
-    font-size: 20px;
-}
-
-.leftAligned ul li a {
-    color: black;
-    text-decoration: none;
-}
-
-.leftAligned ul li a:hover {
-    color: #6d2539;
-    text-decoration: underline;
-}
-
-.leftAligned #logoSiresa {
-    height: 85px;
-    width: auto;
-    margin: 20px 0px;
-}
-
-.leftAligned p:first-child {
-    margin-top: 0px;
-}
-
-.leftAligned p {
-    max-width: 500px;
-    margin: 20px 0px;
-}
-
-.sectionContainer #examenesCard {
-    max-width: 450px;
-}
-
-.sectionContainer #examenesCard h2 {
-    margin-bottom: 20px;
-}
-
-#examenesCard img {
-    height: 250px;
-    width: auto;
-    margin: 20px 0px;
-}
-
-.leftAligned iframe {
-    width: 300px;
-    height: 250px;
-    border: 0px;
-    margin-bottom: 40px;
+    .sectionContainer section {
+        margin: 20px 40px;      
+    }
 }
 
 @media screen and (min-width: 900px) {

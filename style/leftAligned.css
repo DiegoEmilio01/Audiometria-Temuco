@@ -1,0 +1,59 @@
+.sectionContainer .leftAligned {
+    align-items: flex-start;
+}
+
+.leftAligned ul {
+    margin: 10px 0px;
+}
+
+.leftAligned ul li {
+    margin: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.leftAligned ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.leftAligned ul li a:hover {
+    color: #6d2539;
+    text-decoration: underline;
+}
+
+.leftAligned #logoSiresa {
+    height: 85px;
+    width: auto;
+    margin: 20px 0px;
+}
+
+.leftAligned p:first-child {
+    margin-top: 0px;
+}
+
+.leftAligned p {
+    max-width: 500px;
+    margin: 20px 0px;
+}
+
+.sectionContainer #examenesCard {
+    max-width: 450px;
+}
+
+.sectionContainer #examenesCard h2 {
+    margin-bottom: 20px;
+}
+
+#examenesCard img {
+    height: 250px;
+    width: auto;
+    margin: 20px 0px;
+}
+
+.leftAligned iframe {
+    width: 300px;
+    height: 250px;
+    border: 0px;
+    margin-bottom: 40px;
+}

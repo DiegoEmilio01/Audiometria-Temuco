@@ -1,0 +1,21 @@
+section table {
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+  
+section table td {
+    text-align:left;
+    padding: 5px 10px;
+    font-size: large;
+}
+
+section table td a {
+    text-align:left;
+    color: black;
+    text-decoration: none;
+}
+
+section table td a:hover {
+    color: #6d2539;
+    text-decoration: underline;
+}
