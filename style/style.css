@@ -18,7 +18,7 @@
     }
 
     .leftAligned iframe {
-        width: 500px;
+        width: 400px;
     }
 
     section table td {
@@ -27,6 +27,11 @@
 
     .sectionContainer section {
         margin: 20px 40px;      
+    }
+
+    footer {
+        flex-direction: row;
+        min-height: 30px;
     }
 }
 
