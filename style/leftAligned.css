@@ -37,18 +37,40 @@
     margin: 20px 0px;
 }
 
-.sectionContainer #examenesCard {
-    max-width: 450px;
+.leftAligned #logosContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin: 15px 10px;
 }
 
-.sectionContainer #examenesCard h2 {
-    margin-bottom: 20px;
-}
-
-#examenesCard img {
-    height: 250px;
+.leftAligned #logosContainer img {
+    height: 30px;
     width: auto;
-    margin: 20px 0px;
+}
+
+#logosContainer #diprecaContainer {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    background-color: #e5102a;
+}
+
+@font-face {
+    font-family: 'gobCL';
+    font-style: normal;
+    font-weight: bold;
+    src: url("./fonts/gobCL_Bold.otf") format('opentype');
+  }
+
+#diprecaContainer p {
+    font-size: small;
+    font-family: 'gobCL', Tahoma, Verdana, Segoe, sans-serif;
+    color: #ffffff;
+    padding: 0px 5px;
+    text-transform: uppercase;
+    margin: 0px;
 }
 
 .leftAligned iframe {
