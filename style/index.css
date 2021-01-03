@@ -78,3 +78,17 @@ section h2 {
     text-align: center;
     margin: 5px;
 }
+
+.sectionContainer #examenesCard {
+    max-width: 450px;
+}
+
+.sectionContainer #examenesCard h2 {
+    margin-bottom: 20px;
+}
+
+#examenesCard img {
+    height: 250px;
+    width: auto;
+    margin: 20px 0px;
+}

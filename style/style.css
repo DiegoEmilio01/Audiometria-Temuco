@@ -5,6 +5,15 @@
 @import './leftAligned.css';
 @import './tables.css';
 
+@media screen and (min-width: 440px) {
+    .leftAligned #logosContainer img, #logosContainer #diprecaContainer {
+        height: 50px;
+    }
+
+    #diprecaContainer p {
+        font-size: large;
+    }
+}
 
 @media screen and (min-width: 550px) {  
     header .menu {
@@ -22,7 +31,7 @@
     }
 
     section table td {
-        padding: 25px 30px;
+        padding: 15px 30px;
     }
 
     .sectionContainer section {
@@ -32,6 +41,16 @@
     footer {
         flex-direction: row;
         min-height: 30px;
+    }
+
+    .leftAligned #logosContainer {
+        margin: 25px 30px;
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .leftAligned #logosContainer {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
