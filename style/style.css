@@ -5,6 +5,7 @@
 @import './leftAligned.css';
 @import './tables.css';
 
+
 @media screen and (min-width: 440px) {
     .leftAligned #logosContainer img {
         height: 50px;
@@ -54,7 +55,6 @@
     }
 }
 
-
 @media screen and (min-width: 950px) {
     main .sectionContainer {
         flex-direction: row;
@@ -76,5 +76,3 @@
         height: 50px;
     }
 }
-
-
