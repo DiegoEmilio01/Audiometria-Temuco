@@ -12,6 +12,16 @@
     }
 }
 
+@media screen and (min-width: 500px) {
+    .headerInfo img {
+        display: inline;
+    }
+
+    header .headerInfo {
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+}
+
 @media screen and (min-width: 550px) {  
     header .menu {
         display: flex;

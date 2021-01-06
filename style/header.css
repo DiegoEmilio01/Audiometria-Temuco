@@ -5,9 +5,46 @@ header {
     align-items: center;
     position: sticky;
     top: 0px;
-    background-color: #8d2f4a;
-    color: #ffffff;
     z-index: 1;
+}
+
+header .headerInfo {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    background-color: #8d2f4a;
+}
+
+.headerInfo img {
+    display: none;
+    margin: 5px;
+    height: 65px;
+    width: auto;
+}
+
+.headerInfo .headerText {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerText h1 {
+    font-family: "Brush Script MT", cursive;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 26.4px;
+    margin: 10px 0px 5px 0px;
+}
+
+.headerText h1 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.headerText h3 {
+    font-style: italic;
+    font-family: Calibri, Candara, Arial, sans-serif;
 }
 
 header .menu {
@@ -26,22 +63,3 @@ header .menu {
 }
 
 .menu a:hover {background-color: #bf4063}
-
-header h1 {
-    font-family: "Brush Script MT", cursive;
-    font-style: normal;
-    font-variant: normal;
-    line-height: 26.4px;
-    margin: 10px 0px 5px 0px;
-}
-
-header h1 a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-header h3 {
-    margin-bottom: 10px;
-    font-style: italic;
-    font-family: Calibri, Candara, Arial, sans-serif;
-}
