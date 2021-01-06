@@ -5,13 +5,20 @@
 @import './leftAligned.css';
 @import './tables.css';
 
+
 @media screen and (min-width: 440px) {
-    .leftAligned #logosContainer img, #logosContainer #diprecaContainer {
+    .leftAligned #logosContainer img {
         height: 50px;
     }
+}
 
-    #diprecaContainer p {
-        font-size: large;
+@media screen and (min-width: 500px) {
+    .headerInfo img {
+        display: inline;
+    }
+
+    header .headerInfo {
+        grid-template-columns: 1fr 3fr 1fr;
     }
 }
 
@@ -48,15 +55,34 @@
     }
 }
 
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 720px) {
     .leftAligned #logosContainer {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .leftAligned iframe {
+        width: 580px;
+    }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 950px) {
     main .sectionContainer {
         flex-direction: row;
         align-items: flex-start;
+    }
+
+    .leftAligned #logosContainer img {
+        height: 40px;
+    }
+
+    .leftAligned iframe {
+        width: 400px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .leftAligned #logosContainer img {
+        height: 50px;
     }
 }

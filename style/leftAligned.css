@@ -45,32 +45,8 @@
 }
 
 .leftAligned #logosContainer img {
-    height: 30px;
+    height: 35px;
     width: auto;
-}
-
-#logosContainer #diprecaContainer {
-    height: 30px;
-    display: flex;
-    align-items: center;
-    width: fit-content;
-    background-color: #e5102a;
-}
-
-@font-face {
-    font-family: 'gobCL';
-    font-style: normal;
-    font-weight: bold;
-    src: url("./fonts/gobCL_Bold.otf") format('opentype');
-  }
-
-#diprecaContainer p {
-    font-size: small;
-    font-family: 'gobCL', Tahoma, Verdana, Segoe, sans-serif;
-    color: #ffffff;
-    padding: 0px 5px;
-    text-transform: uppercase;
-    margin: 0px;
 }
 
 .leftAligned iframe {
