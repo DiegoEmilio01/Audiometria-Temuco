@@ -44,15 +44,37 @@
     }
 }
 
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 720px) {
     .leftAligned #logosContainer {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .leftAligned iframe {
+        width: 580px;
+    }
 }
 
-@media screen and (min-width: 900px) {
+
+@media screen and (min-width: 950px) {
     main .sectionContainer {
         flex-direction: row;
         align-items: flex-start;
     }
+
+    .leftAligned #logosContainer img {
+        height: 40px;
+    }
+
+    .leftAligned iframe {
+        width: 400px;
+    }
 }
+
+
+@media screen and (min-width: 1200px) {
+    .leftAligned #logosContainer img {
+        height: 50px;
+    }
+}
+
+
