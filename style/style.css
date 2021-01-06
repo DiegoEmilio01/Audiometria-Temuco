@@ -6,12 +6,8 @@
 @import './tables.css';
 
 @media screen and (min-width: 440px) {
-    .leftAligned #logosContainer img, #logosContainer #diprecaContainer {
+    .leftAligned #logosContainer img {
         height: 50px;
-    }
-
-    #diprecaContainer p {
-        font-size: large;
     }
 }
 
