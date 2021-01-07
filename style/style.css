@@ -33,16 +33,12 @@
         padding: 5px;
     }
 
-    .leftAligned iframe {
+    section iframe {
         width: 400px;
     }
 
     section table td {
         padding: 15px 30px;
-    }
-
-    .sectionContainer section {
-        margin: 20px 40px;      
     }
 
     footer {
@@ -60,8 +56,16 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .leftAligned iframe {
-        width: 580px;
+    section #dataUbicacion {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section iframe {
+        width: 550px;
+    }
+
+    section .place img {
+        height: 55px;
     }
 }
 
@@ -75,8 +79,13 @@
         height: 40px;
     }
 
-    .leftAligned iframe {
-        width: 400px;
+    .sectionContainer section {
+        margin: 20px 10%;      
+    }
+
+    .sectionContainer #examenesCard {
+        margin-right: 3%;
+        margin-left: 0%;
     }
 }
 
@@ -84,5 +93,9 @@
 @media screen and (min-width: 1200px) {
     .leftAligned #logosContainer img {
         height: 50px;
+    }
+
+    section iframe {
+        width: 640px;
     }
 }

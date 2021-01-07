@@ -22,12 +22,6 @@
     text-decoration: underline;
 }
 
-.leftAligned #logoSiresa {
-    height: 85px;
-    width: auto;
-    margin: 20px 0px;
-}
-
 .leftAligned p:first-child {
     margin-top: 0px;
 }
@@ -47,11 +41,4 @@
 .leftAligned #logosContainer img {
     height: 35px;
     width: auto;
-}
-
-.leftAligned iframe {
-    width: 300px;
-    height: 250px;
-    border: 0px;
-    margin-bottom: 40px;
 }
