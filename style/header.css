@@ -15,7 +15,12 @@ header .headerInfo {
     background-color: #8d2f4a;
 }
 
-.headerInfo img {
+.headerInfo a {
+    height: fit-content;
+    width: fit-content;
+}
+
+.headerInfo a img {
     display: none;
     margin: 5px;
     height: 65px;
@@ -42,9 +47,11 @@ header .headerInfo {
     text-decoration: none;
 }
 
-.headerText h3 {
+.headerText h3 a {
     font-style: italic;
     font-family: Calibri, Candara, Arial, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 header .menu {
