@@ -13,7 +13,7 @@
 }
 
 @media screen and (min-width: 500px) {
-    .headerInfo img {
+    .headerInfo .logo {
         display: inline;
     }
 

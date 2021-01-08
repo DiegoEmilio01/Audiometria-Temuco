@@ -15,11 +15,18 @@ header .headerInfo {
     background-color: #8d2f4a;
 }
 
-.headerInfo img {
-    display: none;
+.headerInfo .logo {
     margin: 5px;
     height: 65px;
-    width: auto;
+    width: 65px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: none;
+}
+
+.headerInfo .logo img {
+    object-fit: cover;
+    height: 100%;
 }
 
 .headerInfo .headerText {
@@ -42,9 +49,11 @@ header .headerInfo {
     text-decoration: none;
 }
 
-.headerText h3 {
+.headerText h3 a {
     font-style: italic;
     font-family: Calibri, Candara, Arial, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 header .menu {
