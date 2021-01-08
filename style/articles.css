@@ -6,9 +6,9 @@ section article {
     margin: 10px 0px;
 }
 
-section article:last-child {
+/* section article:last-child {
     margin-bottom: 40px;
-}
+} */
 
 section article:first-child {
     margin-top: 0px;
@@ -35,15 +35,23 @@ section .place img {
     margin: 0px 8px;
 }
 
-section article h3 {
+.place .placeText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.placeText p:first-child {
+    font-weight: bold;
+}
+
+section article h2 {
     color: #6d2539;
     margin: 0px;
     font-style: italic;
     text-align: left;
-}
-
-section .place p {
-    font-weight: bold;
+    font-size: larger;
 }
 
 section article h4 {
