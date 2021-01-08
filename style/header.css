@@ -15,18 +15,18 @@ header .headerInfo {
     background-color: #8d2f4a;
 }
 
-.headerInfo a {
+.headerInfo .logo {
     margin: 5px;
     height: 65px;
     width: 65px;
     border-radius: 50%;
     overflow: hidden;
+    display: none;
 }
 
-.headerInfo a img {
+.headerInfo .logo img {
     object-fit: cover;
     height: 100%;
-    display: none;
 }
 
 .headerInfo .headerText {
