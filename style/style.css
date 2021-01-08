@@ -10,6 +10,10 @@
     .leftAligned #logosContainer img {
         height: 50px;
     }
+
+    section article h2 {
+        font-size: x-large;
+    }
 }
 
 @media screen and (min-width: 500px) {
@@ -65,7 +69,7 @@
     }
 
     section .place img {
-        height: 55px;
+        height: 70px;
     }
 }
 
