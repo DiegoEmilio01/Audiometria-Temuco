@@ -14,7 +14,7 @@
 
 @media screen and (min-width: 500px) {
     .headerInfo a img {
-        display: inline;
+        display: block;
     }
 
     header .headerInfo {

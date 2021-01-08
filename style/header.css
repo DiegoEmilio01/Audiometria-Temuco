@@ -16,15 +16,17 @@ header .headerInfo {
 }
 
 .headerInfo a {
-    height: fit-content;
-    width: fit-content;
+    margin: 5px;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .headerInfo a img {
+    object-fit: cover;
+    height: 100%;
     display: none;
-    margin: 5px;
-    height: 65px;
-    width: auto;
 }
 
 .headerInfo .headerText {
