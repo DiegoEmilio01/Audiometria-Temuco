@@ -29,7 +29,6 @@ html body main {
 
 main h1 {
     margin: 15px 45px 8px 45px;
-    text-align: left;
     font-size: 40px;
     color: #6d2539;
 }
@@ -65,10 +64,18 @@ section #dataUbicacion {
     grid-gap: 5px;
 }
 
+#dataUbicacion .datoUbicacion:first-child {
+    margin-bottom: 15px;
+}
+
 #dataUbicacion .datoUbicacion {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+#dataUbicacion .datoUbicacion b {
+    color: #6d2539;
 }
 
 .datoUbicacion #logoSiresa {
