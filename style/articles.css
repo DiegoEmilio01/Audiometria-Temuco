@@ -42,6 +42,10 @@ section .place img {
     justify-content: space-evenly;
 }
 
+.place .placeText p {
+    text-align: left;
+}
+
 .placeText p:first-child {
     font-weight: bold;
 }
