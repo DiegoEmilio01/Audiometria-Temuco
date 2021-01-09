@@ -1,9 +1,10 @@
 @import './index.css';
 @import './articles.css';
+@import './tables.css';
+@import './lists.css';
 @import './header.css';
 @import './footer.css';
 @import './leftAligned.css';
-@import './tables.css';
 
 
 @media screen and (min-width: 440px) {

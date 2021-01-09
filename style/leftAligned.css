@@ -2,26 +2,6 @@
     align-items: flex-start;
 }
 
-.leftAligned ul {
-    margin: 10px 0px;
-}
-
-.leftAligned ul li {
-    margin: 10px;
-    text-align: left;
-    font-size: 20px;
-}
-
-.leftAligned ul li a {
-    color: black;
-    text-decoration: none;
-}
-
-.leftAligned ul li a:hover {
-    color: #6d2539;
-    text-decoration: underline;
-}
-
 .leftAligned p:first-child {
     margin-top: 0px;
 }

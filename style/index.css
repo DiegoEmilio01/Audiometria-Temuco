@@ -71,17 +71,6 @@ section #dataUbicacion {
     align-items: flex-start;
 }
 
-.datoUbicacion ul {
-    margin: 10px 0px;
-    list-style-position: inside;
-}
-
-.datoUbicacion ul li {
-    margin: 10px 0px 10px 5px;
-    text-align: left;
-    font-size: 20px;
-}
-
 .datoUbicacion #logoSiresa {
     height: 85px;
     width: auto;
