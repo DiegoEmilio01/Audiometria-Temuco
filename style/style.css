@@ -46,11 +46,6 @@
         padding: 15px 30px;
     }
 
-    footer {
-        flex-direction: row;
-        min-height: 30px;
-    }
-
     .leftAligned #logosContainer {
         margin: 25px 30px;
     }

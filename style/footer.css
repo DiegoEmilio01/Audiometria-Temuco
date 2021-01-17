@@ -1,18 +1,26 @@
 footer {
     display: flex;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
     background-color: #8d2f4a;
     width: 100%;
     box-sizing: border-box;
-    min-height: 40px;
     font-family: Calibri, Candara, Arial, sans-serif;
 }
 
 footer a {
-    font-size: small;
-    margin: 0px 10px;
-    color: #ffffff;
-    text-decoration: none;
+    height: 25px;
+    margin: 10px 5px;
+    border-radius: 50%;
+    width: auto;
+    overflow: hidden;
+}
+
+footer .instagramIcon {
+    border-radius: 25%;
+}
+
+footer a img {
+    object-fit: cover;
+    height: 100%;
 }
