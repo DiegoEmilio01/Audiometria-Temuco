@@ -16,10 +16,6 @@ footer a {
     overflow: hidden;
 }
 
-footer .instagramIcon {
-    border-radius: 25%;
-}
-
 footer a img {
     object-fit: cover;
     height: 100%;
