@@ -67,6 +67,10 @@
     section .place img {
         height: 70px;
     }
+
+    .place .placeText p {
+        margin: 2px 0px;
+    }
 }
 
 @media screen and (min-width: 950px) {
