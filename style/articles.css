@@ -30,7 +30,7 @@ section .place {
 
 section .place img {
     box-sizing: border-box;
-    height: 40px;
+    height: 50px;
     width: auto;
     margin: 0px 8px;
 }
@@ -44,6 +44,8 @@ section .place img {
 
 .place .placeText p {
     text-align: left;
+    margin: 0px;
+    font-size: large;
 }
 
 .placeText p:first-child {
@@ -62,7 +64,13 @@ section article h4 {
     text-align: left;
     color: #6d2539;
     font-size: larger;
-    margin: 10px 0px 5px 0px;
+    margin: 15px 0px 8px 0px;
+}
+
+section article p {
+    font-size: larger;
+    margin: 2px 0px;
+    text-align: left;
 }
 
 article h4 a {
