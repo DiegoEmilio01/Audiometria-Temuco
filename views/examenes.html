@@ -9,10 +9,29 @@
         <link rel="stylesheet" href="../style/style.css">
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-BWZQ9FCFRB"></script>
         <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-BWZQ9FCFRB');
+            // Detect if user is using a browser
+            // Opera 8.0+
+            var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+            // Firefox 1.0+
+            var isFirefox = typeof InstallTrigger !== 'undefined';
+            // Safari 3.0+
+            var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && window['safari'].pushNotification));
+            // Internet Explorer 6-11
+            var isIE = /*@cc_on!@*/false || !!document.documentMode;
+            // Edge 20+
+            var isEdge = !isIE && !!window.StyleMedia;
+            // Chrome 1 - 79
+            var isChrome = !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
+            // Edge (based on chromium) detection
+            var isEdgeChromium = isChrome && (navigator.userAgent.indexOf("Edg") != -1);
+            // Blink engine detection
+            var isBlink = (isChrome || isOpera) && !!window.CSS;
+            if (isOpera || isFirefox || isSafari || isIE || isEdge || isChrome || isEdgeChromium || isBlink) {
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-BWZQ9FCFRB');
+            }
         </script>
         <title>Exámenes | Sandra Henríquez V.</title>
     </head>
