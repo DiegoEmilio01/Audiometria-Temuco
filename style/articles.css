@@ -6,10 +6,6 @@ section article {
     margin: 10px 0px;
 }
 
-/* section article:last-child {
-    margin-bottom: 40px;
-} */
-
 section article:first-child {
     margin-top: 0px;
 }

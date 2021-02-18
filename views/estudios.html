@@ -1,20 +1,44 @@
 <!DOCTYPE html>
 <!-- Author: https://github.com/DiegoEmilio01 -->
-<html>
+<html lang="es">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="icon" type="image/png" href="../assets/logos/logo16.png" sizes="16x16">
-        <link rel="icon" type="image/png" href="../assets/logos/logo32.png" sizes="32x32">
-        <link rel="stylesheet" href="../style/style.css">
+        <link media="screen" rel="icon" type="image/png" href="../assets/logos/logo16.png" sizes="16x16">
+        <link media="screen" rel="icon" type="image/png" href="../assets/logos/logo32.png" sizes="32x32">
+        <link media="screen" rel="stylesheet preload" as="style" href="../style/articles.css">
+        <link media="screen" rel="stylesheet preload" as="style" href="../style/index.css">
+        <link media="screen" rel="stylesheet preload" as="style" href="../style/header.css">
+        <link media="screen" rel="stylesheet preload" as="style" href="../style/footer.css">
+        <link media="screen" rel="stylesheet preload" as="style" href="../style/queries.css">
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-BWZQ9FCFRB"></script>
         <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-BWZQ9FCFRB');
+            // Detect if user is using a browser
+            // Opera 8.0+
+            var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+            // Firefox 1.0+
+            var isFirefox = typeof InstallTrigger !== 'undefined';
+            // Safari 3.0+
+            var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || (typeof safari !== 'undefined' && window['safari'].pushNotification));
+            // Internet Explorer 6-11
+            var isIE = /*@cc_on!@*/false || !!document.documentMode;
+            // Edge 20+
+            var isEdge = !isIE && !!window.StyleMedia;
+            // Chrome 1 - 79
+            var isChrome = !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
+            // Edge (based on chromium) detection
+            var isEdgeChromium = isChrome && (navigator.userAgent.indexOf("Edg") != -1);
+            // Blink engine detection
+            var isBlink = (isChrome || isOpera) && !!window.CSS;
+            if (isOpera || isFirefox || isSafari || isIE || isEdge || isChrome || isEdgeChromium || isBlink) {
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-BWZQ9FCFRB');
+            }
         </script>
         <title>Estudios | Sandra Henríquez V.</title>
+        <meta name="description" content="Todos los grados que posee Sandra Henríquez en la UFRO y la UChile." />
     </head>
     <body>
         <header>
