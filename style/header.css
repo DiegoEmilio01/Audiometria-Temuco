@@ -50,7 +50,11 @@ header .headerInfo {
     text-decoration: none;
 }
 
-.headerText h3 a {
+.headerText h2 {
+    font-size: large;
+}
+
+.headerText h2 a {
     font-style: italic;
     font-family: Calibri, Candara, Arial, sans-serif;
     color: #ffffff;
