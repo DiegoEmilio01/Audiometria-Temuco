@@ -98,12 +98,12 @@ section iframe {
 
 .sectionContainer section #indexCard {
     margin: 10px;
-    width: 160px;
+    width: 240px;
 }
 
 #indexCard img {
     height: auto;
-    width: 160px;
+    width: 240px;
 }
 
 #indexCard p {
